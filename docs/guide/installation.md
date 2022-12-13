@@ -15,6 +15,8 @@ bash <(curl -fsSL https://zhamao.xin/go.sh)
 # 安装完成后的启动框架命令（2.5.0 版本后可省略掉 runtime/php 前缀）
 cd zhamao-app
 ./zhamao server
+
+# 如果执行安装时长时间停留在"初始化框架脚手架文件"，请尝试敲击回车！
 ```
 
 > 有关静态 PHP 的多种用法（如 Composer），见 [进阶 - PHP 环境高级](/advanced/php-env)
